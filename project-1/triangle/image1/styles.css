@@ -1,0 +1,33 @@
+body{
+	background: url("background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+	font-family: helvetica;
+	margin: 0;
+	padding: 0;
+	max-width: 500px;
+s
+	
+	}
+
+.img{
+	margin: auto;
+    width: 50%;
+    left: 200px;
+    right: 200px;
+    
+}
+
+.container{
+	border: solid yellow;
+
+}	
+
+
+	
+
+
+
+

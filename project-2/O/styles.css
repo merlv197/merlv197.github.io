@@ -1,0 +1,17 @@
+.redcircle{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background-color: yellow;
+	position: absolute;
+}
+
+.yellowcircle{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+}

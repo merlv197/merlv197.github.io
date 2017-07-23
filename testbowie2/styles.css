@@ -1,0 +1,14 @@
+#hover-content {
+    display:none;
+}
+#parent:hover #hover-content {
+    display:block;
+    color: white;
+    position: absolute;
+
+}
+
+.img {
+	top: 50%;
+	left: 50%;
+}

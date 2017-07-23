@@ -1,0 +1,76 @@
+body{
+	background: url("background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: helvetica;
+	margin: 0;
+	padding: 0;
+	}
+
+h1 {font-size: 16px;
+	color: white;
+	margin: 0;
+	font-weight: normal;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+
+	}
+
+
+.buttons{
+	width: 40px;
+	height: 200px;
+	float: left;
+	background: url("menu.png") no-repeat;
+	margin-left: 28px;
+	margin-top: 20px;
+
+}
+
+.buttons1{
+	width: 25px;
+	height: 60px;
+	margin-left: 40px;
+	margin-top: 20px;
+	background-color: yellow;
+
+  
+
+	
+
+}
+
+.buttons2{
+	width: 25px;
+	height: 60px;
+	margin-left: 40px;
+	margin-top: 80px;
+	background-color: red;
+
+ }
+
+ .buttons3{
+	width: 25px;
+	height: 60px;
+	margin-left: 40px;
+	margin-top: 100px;
+	background-color: blue;
+
+  }
+
+.help{width: 50px;
+	height: 200px;
+	float: right;
+	margin-right: 28px;
+	margin-top: 30px;
+	font-family: futura;
+	color: white;
+
+
+
+}

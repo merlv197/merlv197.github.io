@@ -1,0 +1,343 @@
+
+
+html, body { width: 100%; height: 100%; }
+@font-face { font-family: "gibson","helvetica","avenir"; src: url("./fonts/ctgl.otf"); }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: "gibson", "helvetica", "avenir";
+}
+
+
+.wrapper{
+    
+    height: 100%;
+
+}
+
+
+h1, h3, p {
+    
+    font-weight: lighter;
+    }
+
+
+.logo{
+    font-family: "futura";
+     position: fixed;
+    font-size: 25px;  
+    letter-spacing: 3px; 
+   
+     top: 3%;
+     left: 3%;
+     
+     width: 230px;
+     height: 150px;
+     
+
+}
+
+.logo2{
+    font-family: "avenir";
+     position: fixed;
+    font-size: 12px;  
+    letter-spacing: 2px; 
+    top: 100px;
+    left: 3%;
+     
+
+}
+
+.triangle{
+    position: fixed;
+    width: 200px;
+    height: 400px;
+}
+
+
+.triangle2{
+    transform: scale(0.7);
+    position: absolute;
+    left: -4%;
+    margin: 0 auto;
+
+
+}
+
+.logo_rectangle{
+    position: absolute;
+    top: 0;
+    height: 20%;
+    width: 100%;
+    /*border: solid yellow;*/
+}
+
+.mainbody{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    left: 30%;
+    top: 20%;
+    /*border: solid red;*/
+}
+
+.current{
+    position: absolute;
+    top: 2%;
+}
+
+.menu a h3 {
+
+    font-size: 10pt;
+    text-align: right;
+
+}
+
+.triangle img {
+    position: fixed;    
+}
+
+.holder1{
+    position: absolute;
+    top: 0;
+  
+    width: 620px;
+    height: 700px;
+
+}
+
+.holder2{
+    position: absolute;
+    /*border: solid yellow;*/
+    top: 5%;
+    left: 25%;
+    width: 320px;
+    height: 400px;
+}
+
+.holder3{
+    position: absolute;
+    /*border: solid yellow;*/
+    top: 90%;
+    left: 25%;
+    width: 620px;
+    height: 200px;
+}
+
+.menu2 a h3 {
+
+    font-size: 8pt;
+    text-align: left;
+    color: #383838;
+
+
+}
+.menu{
+     position: absolute;
+     text-align: right;
+     top: 50%;
+     left: 5%;
+     width: 150px;
+     height: 200px; 
+    
+}
+
+
+.menu2{
+     position: fixed;
+     
+     top: 65%;
+     right: 30%;
+     width: 150px;
+     height: 200px;   
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.footer p {
+    font-size: 6pt;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 47%;
+    position:fixed;
+
+}
+
+.image img {
+    
+    width: 100px;
+    height: 150px;
+    position: absolute;
+     margin: auto;
+     top: -300px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+    
+}
+/*PHOTOGRAPHY/*/
+.photo img {
+
+    position: fixed;
+    top: 15%;
+    left: 47%;
+    width: 230px;
+    height: 160px;
+    margin-left: -70px;
+
+}
+
+.portrait img {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20%;
+    height: auto;
+    
+}
+/*CODING*/
+.coding-image img {
+   width: 240px;
+    height: 130px;
+    position: absolute;
+     margin: auto;
+     top: -300px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+}
+
+/*GRAPHICDESIGN*/
+.graphicphoto img{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+     margin: auto;
+     top: -300px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+}
+
+
+.left-side{
+    width: 180px;
+    height: 30px;
+    position: fixed;
+    right: 15px;
+    top: 2%;
+
+}
+
+.side {
+    display: inline-block;
+    margin-right: 10px;
+}
+.sidebar {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: relative;
+   
+}
+
+.side-bar {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: relative;
+  
+    
+}
+
+.contact {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.text {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+   top: 52%;
+   left: 50%;
+   transform: translate(-50%);
+    
+
+}
+
+.about {
+   position: relative;
+    font-size: 10pt;
+    font-weight: lighter;
+    font-family: "gibson", "helvetica", "avenir";
+    color: black;
+    line-height: 15px;
+}
+
+.phone, .email {
+    position: relative;
+    margin-top: 20px;
+    font-size: 10pt;
+    font-weight: lighter;
+    font-family: "gibson", "helvetica", "avenir";
+    color: black;
+    line-height: 15px;
+
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.contact_fixed h1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.back {
+    font-family: "gibson", "helvetica", "avenir";
+    font-weight: lighter;
+    font-size: 8pt;
+    color: black;
+    position: fixed;
+    top: 1%;
+    left: 3%;
+    opacity: 0;
+}
+
+
+

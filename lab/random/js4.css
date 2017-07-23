@@ -1,0 +1,31 @@
+body{
+	margin: 20px;
+	font-size: 0;
+}
+
+.object{
+	width: 200px;
+	font-size: 50px;
+	background: #ffa;
+	margin: 20px, 20px, 20px, 0;
+	text-align: center;
+	display: inline-block;
+
+
+}
+
+.button{
+	border: 1px solid #e5e5e5;
+	font-size: 16px;
+	padding: 10px, 15px;
+	color: #000;
+	text-decoration: none;
+
+
+}
+
+
+.green{ color: #0f0}
+.red{ color: #f00}
+.red{ color: #00f}
+

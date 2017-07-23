@@ -1,0 +1,144 @@
+body{
+	background: url("background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+	font-family: helvetica;
+	margin: 0;
+	padding: 0;
+	max-width: 500px;
+s
+	
+	}
+
+h1 {font-size: 16px;
+	color: white;
+	margin: 0;
+	font-weight: normal;
+}
+
+#wrapper{
+	font-family: helvetica;
+	position: fixed;
+	width: 100%;
+    height: 50%;
+    padding-top: 0%;
+    /*border: solid black;*/
+    background-size: cover;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+	
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+
+	}
+
+	
+.buttons{
+	width: 40px;
+	height: 140px;
+	float: left;
+	background: url("menu.png") no-repeat;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.buttons1{
+	width: 70px;
+	height: 60px;
+	/*background color to see the div*/
+	/*border: solid yellow;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+
+
+
+}
+
+.buttons2{
+	width: 70px;
+	height: 40px;
+	/*background color to see the div*/
+	/*border: solid red;*/
+	position: fixed;
+	top: 65px;
+	left: 0;
+}
+
+ .buttons3{
+	width: 70px;
+	height: 40px;
+	/*background color to see the div*/
+	/*border: solid green;*/
+	position: fixed;
+	top: 110px;
+	left: 0;
+}
+
+.triangle1{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	/*border color to see the div*/
+	/*border: solid yellow;*/
+	bottom: 0px;
+	right: 0%;
+}
+
+.trianglebutton1{
+	width: 33.3%;
+	height: 41%;
+	position: absolute;
+	/*border color to see the div*/
+	/*border: solid blue;*/
+	bottom: 10%;
+	right: 0%;
+
+
+}	
+
+.trianglebutton2{
+	width: 33.3%;
+	height: 41%;
+	position: absolute;
+	/*border color to see the div*/
+	/*border: solid green;*/
+	bottom: 0px;
+	right: 33.3%;
+	bottom: 10%;
+
+}
+
+.trianglebutton3{
+	width: 33.3%;
+	height: 41%;
+	position: absolute;
+	/*border color to see the div*/
+	/*border: solid red;*/
+	bottom: 10%;
+	right: 66.6%;
+
+}
+
+.help{
+	width: 50px;
+	height: 200px;
+	position: relative;
+	float: right;
+	clear: right;
+	top: 5%;
+	right: 2%;
+	font-family: futura;
+	color: white;
+	
+	vertical-align: top;
+}
+
+
