@@ -434,12 +434,13 @@ h1, h3, p {
 .holder16{
     position: absolute;
     margin: 150px, 150px, 150px, 150px;
-    top: 610px;
-    left: 25%;
+    top: 810px;
+    right: 10%;
+    border: solid yellow;
+    width: 600px;
+    height: 80px;
+    background-image: url("img/slider.png");
     
-    width: 200px;
-    height: 200px;
-    background-image: url("img/buttons04.png");
 
 }
 
