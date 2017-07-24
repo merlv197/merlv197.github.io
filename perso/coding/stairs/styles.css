@@ -4,13 +4,19 @@ html, body { width: 100%; height: 100%; }
 @font-face { font-family: "gibson","helvetica","avenir"; src: url("./fonts/ctgl.otf"); }
 
 body {
+
     margin: 0;
     padding: 0;
     font-size: 0;
     font-family: "gibson", "helvetica", "avenir";
 }
 
-
+.megawrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
 .wrapper_menu{
     
     height: 100%;
@@ -101,11 +107,12 @@ h1, h3, p {
 
 .mainbody{
     position: absolute;
-    width: 100%;
+    width: 70%;
     height: 275%;
     left: 30%;
     top: 20%;
-    /*border: solid yellow;*/
+    bottom: 20%;
+    border: solid yellow;
    
 }
 
@@ -115,6 +122,7 @@ h1, h3, p {
     left: 7%;
     width: 20%;
     height: 10%;
+   /* border: solid red;*/
     
 }
 
@@ -147,13 +155,14 @@ h1, h3, p {
     position: absolute;
     /*border: solid yellow;*/
     top: 0;
-    left: 43%;
+    left: 700px;
     width: 320px;
     height: 400px;
     
 }
 
 .caption1{
+     
     position: absolute;
     text-align: left;
     font-size: 14px;
@@ -162,23 +171,28 @@ h1, h3, p {
 
 .holder3{
     position: absolute;
-    border: solid blue;
-    top: 20%;
-    left: 42%;
+    /*border: solid blue;*/
+    top: 0;
+    left: 700px;
     width: 45px;
-    height: 136px;
+    height: 650px;
     background-image: url("img/menu.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
     
 }
+
+
 
 .holder4{
     /*display: none;*/
     position: absolute;
 
+
     
     top: 40%;
-    left: 0;
-    /*border: solid red;*/
+    left: 40%;
+    border: solid red;
     width: 600px;
     height: 216.66px;
     background-image: url("img/stairs03.png");
@@ -190,8 +204,8 @@ h1, h3, p {
     position: absolute;
     
     top: 30%;
-    left: 0;
-    /*border: solid blue;*/
+    left: 40%;
+    border: solid blue;
     width: 600px;
     height: 216.66px;
     background-image: url("img/stairs04.png");
@@ -203,7 +217,7 @@ h1, h3, p {
     position: absolute;
     
     top: 50%;
-    left: 0;
+    left: 40%;
     /*border: solid green;*/
     width: 600px;
     height: 216.66px;
@@ -211,27 +225,17 @@ h1, h3, p {
 
 }
 
-
-
-.holder4_5{
-    /*display: none;*/
+.holder7{
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform:translate(-50%);
-    color: #E58568;
-    font-size: 14px;
-    font-family: futura;
-  
+    width: 320px;
+    height: 400px;
+    top: 30%;
+    left: 0;
+    border: solid green;
+    
     
 
 }
-
-
-
-
-
-
 
 
 a {
@@ -243,10 +247,10 @@ a {
 
 .footer p {
     font-size: 6pt;
-    text-align: center;
+    text-align: right;
     margin: 0 auto;
     bottom: 10px;
-    left: 47%;
+    right: 1%;
     position:fixed;
 
 }
