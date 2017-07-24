@@ -11,6 +11,12 @@ body {
     font-family: "gibson", "helvetica", "avenir";
 }
 
+.wrapper{
+    
+    height: 100%;
+
+}
+
 .right{
     right: 0;
 }
@@ -165,7 +171,7 @@ h1, h3, p {
 
 .secondbody{
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: 7%;
     width: 20%;
     height: 10%;
@@ -224,7 +230,7 @@ h1, h3, p {
      
     
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     font-family: avenir;
 }
 
@@ -582,7 +588,7 @@ a {
 .titlemini{
     font-family: avenir;
     letter-spacing: 5px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: right;
 }
 
