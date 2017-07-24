@@ -91,7 +91,7 @@ h1, h3, p {
 
 .menu2 a h3 {
 
-    font-size: 8pt;
+    font-size: 10pt;
     text-align: left;
     color: #383838;
     z-index: 2;
@@ -114,7 +114,7 @@ h1, h3, p {
 .menu2{
      position: absolute;
      
-     top: 20%;
+     top: 10%;
      left: 3%;
      width: 15%
      
@@ -129,7 +129,7 @@ h1, h3, p {
     left: 30%;
     top: 20%;
     bottom: 20%;
-    /*border: solid yellow;*/
+    
    
 }
 
@@ -192,7 +192,7 @@ h1, h3, p {
 
 .menu a h3 {
 
-    font-size: 8pt;
+    font-size: 10pt;
     text-align: left;
 
 }
@@ -200,8 +200,8 @@ h1, h3, p {
 .holder1{
     position: absolute;
     top: 0;
-    left: 0%;
-    /*border: solid red;*/
+    right: 10%;
+    
     width: 600px;
     height: 650px;
     background-image: url("img/loading.gif");
@@ -215,8 +215,8 @@ h1, h3, p {
     position: absolute;
     /*border: solid yellow;*/
     top: 0;
-    left: 700px;
-    width: 320px;
+    left: 150px;
+    width: 520px;
     height: 400px;
     
 }
@@ -236,8 +236,8 @@ h1, h3, p {
     position: absolute;
     /*border: solid blue;*/
     top: 0;
-    left: 700px;
-    width: 350px;
+    left: 150px;
+    width: 320px;
     height: 650px;
     background-image: url("img/loading01.png");
     background-repeat: no-repeat;
