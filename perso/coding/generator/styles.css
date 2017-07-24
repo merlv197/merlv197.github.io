@@ -204,7 +204,8 @@ h1, h3, p {
     /*border: solid red;*/
     width: 600px;
     height: 650px;
-    background-image: url("img/stairs02.png");
+    background-image: url("img/loading.gif");
+    background-repeat: no-repeat;
     
     
 
@@ -236,9 +237,9 @@ h1, h3, p {
     /*border: solid blue;*/
     top: 0;
     left: 700px;
-    width: 45px;
+    width: 350px;
     height: 650px;
-    background-image: url("img/menu.png");
+    background-image: url("img/loading01.png");
     background-repeat: no-repeat;
     background-position: bottom;
     
@@ -254,7 +255,8 @@ h1, h3, p {
    /* border: solid red;*/
     width: 600px;
     height: 216.66px;
-    background-image: url("img/stairs03.png");
+    background-image: url("img/loading01.png");
+    background-repeat: no-repeat;
 
 }
 
