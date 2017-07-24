@@ -18,7 +18,7 @@ body {
 }
 
 .right{
-    right: 0;
+    right: 20%;
     top: 150px;
 }
 
@@ -244,6 +244,14 @@ h1, h3, p {
     font-family: avenir;
 }
 
+.caption3{
+     
+    margin-top: 150px;
+
+    text-align: left;
+    font-size: 16px;
+    font-family: avenir;
+}
 
 
 
@@ -306,6 +314,7 @@ h1, h3, p {
     height: 400px;
     top: 0;
     margin-right: 100px;
+    
    
     
     
