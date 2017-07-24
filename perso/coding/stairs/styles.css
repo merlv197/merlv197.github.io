@@ -278,7 +278,8 @@ h1, h3, p {
     position: absolute;
     width: 320px;
     height: 400px;
-    top: 0;
+    top: 100px;
+    margin-right: 100px;
     
     border: solid green;
     
