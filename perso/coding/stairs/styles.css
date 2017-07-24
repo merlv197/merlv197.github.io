@@ -31,6 +31,8 @@ body {
     height: 100%;
     width: 20%;
     
+    
+    
 
 }
 
@@ -43,13 +45,16 @@ h1, h3, p {
 
 
 .logo{
-    height: 100%;
+    height: 50px;
     top: 40px;
     left: 3%;
     font-family: "futura";
     position: fixed;
     font-size: 25px;  
     letter-spacing: 3px; 
+    z-index: 4;
+    background-color: white;
+
 
     /*border: solid blue;*/
      
@@ -69,7 +74,8 @@ h1, h3, p {
     letter-spacing: 4px; 
     top: 0;
     left: 3%;
-    
+    z-index: 4;
+    background-color: white;
 
     
 
@@ -88,6 +94,7 @@ h1, h3, p {
     font-size: 8pt;
     text-align: left;
     color: #383838;
+    z-index: 2;
 
 
 }
@@ -99,7 +106,8 @@ h1, h3, p {
      left: 0;
      width: 100%;
      height: 100%; 
-    /* border: solid green;*/  
+    /* border: solid green;*/ 
+    z-index: 2; 
 }
 
 
@@ -303,6 +311,89 @@ h1, h3, p {
     background-image: url("img/solve03.png");   
 
 }
+
+.holder10{
+    margin: 30px;
+    /*display: none;*/
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("img/buttons03.png"); 
+    
+
+}
+
+.holder11{
+    /*display: none;*/
+    position: absolute;
+    margin: 30px;
+    top: 100px;
+    left: 25%;
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("img/buttons02.png"); 
+   
+
+}
+.holder12{
+    /*display: none;*/
+    position: absolute;
+    margin: 30px;
+    top: 340px;
+    left: 5%;
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("img/buttons06.png"); 
+   
+
+}
+.holder13{
+    /*display: none;*/
+    position: absolute;
+    margin: 30px;
+    top: 340px;
+    left: 25%;
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("img/buttons05.png"); 
+   
+
+}
+.holder14{
+    /*display: none;*/
+    position: absolute;
+    margin: 30px;
+    
+    top: 580px;
+    left: 5%;
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("img/buttons07.png"); 
+   
+
+}
+.holder15{
+    /*display: none;*/
+    position: absolute;
+    margin: 30px;
+    top: 580px;
+    left: 25%;
+    
+    width: 200px;
+    height: 200px;
+    background-image: url("img/buttons04.png"); 
+   
+
+}
+
+
 
 
 a {
