@@ -74,6 +74,15 @@ h1, h3, p {
    
 }
 
+.secondbody{
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    width: 20%;
+    height: 10%;
+    
+}
+
 .current{
     position: absolute;
     top: 2%;
@@ -103,10 +112,10 @@ h1, h3, p {
     position: absolute;
     /*border: solid yellow;*/
     top: 0;
-    left: 40%;
+    left: 43%;
     width: 320px;
     height: 400px;
-     cursor: pointer;
+    
 }
 
 .caption1{
@@ -120,7 +129,7 @@ h1, h3, p {
     position: absolute;
     /*border: solid blue;*/
     bottom: 2%;
-    left: 40%;
+    left: 42%;
     width: 45px;
     height: 136px;
     background-image: url("img/menu.png");
@@ -130,24 +139,44 @@ h1, h3, p {
 .holder4{
     /*display: none;*/
     position: absolute;
-    top: 35%;
-    left: 35%;
+    
+    
+    top: 0;
+    left: 70%;
     /*border: solid red;*/
-    width: 471px;
-    height: 138px;
+    width: 600px;
+    height: 216.66px;
+    background-image: url("img/stairs03.png");
 
 }
 
-.holder4_4{
+.holder5{
     /*display: none;*/
     position: absolute;
-    top: 45%;
-    left: 35%;
     
-    width: 471px;
-    height: 138px;
+    top: 216.66px;
+    left: 70%;
+    /*border: solid blue;*/
+    width: 600px;
+    height: 216.66px;
+    background-image: url("img/stairs04.png");
 
 }
+
+.holder6{
+    /*display: none;*/
+    position: absolute;
+    
+    top: 433.33px;
+    left: 70%;
+    /*border: solid green;*/
+    width: 600px;
+    height: 216.66px;
+    background-image: url("img/stairs05.png");
+
+}
+
+
 
 .holder4_5{
     /*display: none;*/
@@ -163,25 +192,7 @@ h1, h3, p {
 
 }
 
-.holder5{
-    display: none;
-    position: absolute;
-    /*border: solid blue;*/
-    bottom: 90%;
-    left: 53%;
-    width: 109px;
-    height: 200px;
-}
 
-.holder6{
-    display: none;
-    position: absolute;
-    
-    top: 25%;
-    left: 62%;
-    width: 620px;
-    height: 200px;
-}
 
 .menu2 a h3 {
 
@@ -242,38 +253,7 @@ a {
      left: 0;
     
 }
-/*PHOTOGRAPHY/*/
-.photo img {
 
-    position: fixed;
-    top: 15%;
-    left: 47%;
-    width: 230px;
-    height: 160px;
-    margin-left: -70px;
-
-}
-
-.portrait img {
-    position: fixed;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%);
-    width: 20%;
-    height: auto;
-    
-}
-/*CODING*/
-.coding-image img {
-   width: 240px;
-    height: 130px;
-    position: absolute;
-     margin: auto;
-     top: -300px;
-     right: 0;
-     bottom: 0;
-     left: 0;
-}
 
 /*GRAPHICDESIGN*/
 .graphicphoto img{
@@ -394,6 +374,23 @@ a {
     left: 3%;
     opacity: 0;
 }
+
+.title{
+    font-family: futura;
+    font-weight: ligher;
+    letter-spacing: 4px;
+    font-size: 35px;
+    text-align: right;
+}
+
+.titlemini{
+    font-family: avenir;
+    letter-spacing: 5px;
+    font-size: 12px;
+    text-align: right;
+}
+
+
 
 
 
