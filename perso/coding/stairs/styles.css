@@ -338,10 +338,38 @@ h1, h3, p {
     height: 60px;
     bottom: 300px;
     top: 75%;
-    left: 100px;
-   /* border: solid green;*/
-    background-image: url("img/solve02.png");   
+    left: 0;
+    
+    background-color: #EED974;
+      
 
+}
+
+.holder8{
+
+  
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.holder8:hover, .holder8:focus, .holder8:active {
+  -webkit-transform: scale(15);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.solve{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    font-family: futura;
+    color: white;
 }
 
 .holder9{
@@ -351,9 +379,26 @@ h1, h3, p {
     top: 65%;
     bottom: 200px;
     left: 0;
-    /*border: solid green;*/
-    background-image: url("img/solve03.png");   
+    
+    background-color: #CE7082;
+       
 
+}
+
+.holder9{
+
+  
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.holder9:hover, .holder9:focus, .holder9:active {
+  -webkit-transform: scale(15);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 .holder10{
