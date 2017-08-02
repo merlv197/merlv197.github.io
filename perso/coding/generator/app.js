@@ -1,15 +1,8 @@
-$(".holder4_4").click(function(){
+$(".circle1").click(function(){
 		
 
-    $(".holder4_5").fadeOut();
-    $(".holder4_5").fadeIn();
-   	$(".holder4_5").fadeOut();
-   	$(".holder4_5").fadeIn();
-   	$(".holder4_5").fadeOut();
-   	$(".holder4_5").fadeIn();
-   	$(".holder4_5").fadeOut();
-   	$(".holder4_5").fadeIn();
-   	$(".holder4_5").fadeOut();
+    $(".holder7 left").fadeOut();
+    console.log("bite");
 
 });  	
    	
